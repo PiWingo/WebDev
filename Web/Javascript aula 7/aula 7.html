@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+       body{
+           margin: 0;
+           background-image: url("https://1.bp.blogspot.com/_XYMy6KSedc8/S9Tt3BRawUI/AAAAAAAAA3k/0vxPO1vR_Uw/s320/297.jpg");
+       }
+        #container{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background: rgba(0,0,0,0.3);
+        }
+        #botaoCont {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            text-align: center;
+        }
+       input{
+           background: white;
+           color: black;
+       }
+       h1, h3{
+           color: white;
+       }
+    </style>
+    
+</head>
+<body>
+<div id="container">
+    <div id="botaoCont">
+        <h1>ADIVINHE O NUMERO!</h1>
+        <input id="campo" type="text" style="text-align: center">
+        <input id="botao" type="button" value="clique aqui" onclick="adivinha()">
+        <h3 id="resposta"></h3>
+    </div>
+</div>
+<script type="text/javascript" src="functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+#header , footer {
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+menu{
+    margin: 0;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.fontHeader{
+    font-size: xx-large;
+}
+
+li, ul{
+    display: inline;
+    border: 1px;
+    background-color: #7081ff;
+    margin:50px;
+}
+
+
+
+.espaco {
+    min-height: 589px;
+}
+body{
+    margin: 0px;
+    background: #93d7ff;
+    animation: animacao 10s infinite;
+}
+@keyframes animacao {
+    50% {background: #af9aff}
+
+}
+a{
+    color: white;
+}
